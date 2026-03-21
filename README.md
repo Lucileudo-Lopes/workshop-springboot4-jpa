@@ -87,6 +87,7 @@ POST /users
   "email": "bob@gmail.com",
   "phone": "977557755"
 }
+
 ⚠️ Tratamento de Exceções
 
 A API possui tratamento global utilizando @ControllerAdvice:
@@ -108,11 +109,17 @@ Tratamento global de exceções
 Uso de perfis de ambiente (test/prod)
 
 🔮 Melhorias Futuras
+
 🔐 Autenticação e autorização com JWT
+
 📄 Paginação e filtros
+
 ✅ Validação com Bean Validation
+
 📊 Documentação com Swagger/OpenAPI
+
 🐳 Docker para deploy
+
 👨‍💻 Autor
 
 Desenvolvido por Lucileudo
