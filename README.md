@@ -100,6 +100,7 @@ POST /
 users
 
 {
+  
   "name": "Bob Brown",
   
   "email": "bob@gmail.com",
@@ -112,10 +113,16 @@ users
 
 📥 Exemplo de Resposta
 {
+  
   "id": 1,
+ 
   "name": "Bob Brown",
+ 
   "email": "bob@gmail.com",
-  "phone": "977557755"
+ 
+  
+"phone": "977557755"
+
 }
 
 ⚠️ Tratamento de Exceções
