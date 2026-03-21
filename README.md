@@ -30,6 +30,7 @@ Resources (Controllers) → Endpoints REST
 Exceptions → Tratamento global de erros
 
 🔗 Relacionamentos
+
 User → Order → One-to-Many
 
 Order → Payment → One-to-One
