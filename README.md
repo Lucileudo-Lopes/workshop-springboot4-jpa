@@ -87,7 +87,9 @@ GET /categories/{id}
 🧪 Exemplo de Requisição
 ➤ Criar usuário
 
-POST /users
+POST /
+users
+
 {
   "name": "Bob Brown",
   
@@ -95,7 +97,8 @@ POST /users
   
   "phone": "977557755",
  
-  "password": "123456"
+ "password": "123456"
+
 }
 
 📥 Exemplo de Resposta
