@@ -33,7 +33,9 @@ Order ↔ Product (OrderItem) → Many-to-Many com atributos extras
 
 ⚙️ Como Executar o Projeto
 🔹 1. Clonar repositório
+
 git clone https://github.com/Lucileudo-Lopes/workshop-springboot4-jpa/edit/main/README.md
+
 🔹 2. Configurar ambiente
 
 🧪 Perfil de teste (H2)
@@ -46,10 +48,10 @@ spring.profiles.active=prod
 spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce
 spring.datasource.username=seu_usuario
 spring.datasource.password=sua_senha
-
 spring.jpa.hibernate.ddl-auto=update
-🔹 3. Executar aplicação
-mvn spring-boot:run
+
+🔹 3. Executar aplicação mvn spring-boot:run
+
 📡 Endpoints da API
 
 👤 Usuários
