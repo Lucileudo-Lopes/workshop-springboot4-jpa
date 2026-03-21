@@ -20,15 +20,22 @@ Postman
 O sistema segue o padrão em camadas:
 
 Entities → Modelos de domínio
+
 Repositories → Acesso a dados com JPA
+
 Services → Regras de negócio
+
 Resources (Controllers) → Endpoints REST
+
 Exceptions → Tratamento global de erros
 
 🔗 Relacionamentos
 User → Order → One-to-Many
+
 Order → Payment → One-to-One
+
 Product ↔ Category → Many-to-Many
+
 Order ↔ Product (OrderItem) → Many-to-Many com atributos extras
 
 ⚙️ Como Executar o Projeto
@@ -56,9 +63,13 @@ spring.jpa.hibernate.ddl-auto=update
 
 👤 Usuários
 GET /users → Lista todos os usuários
+
 GET /users/{id} → Busca usuário por ID
+
 POST /users → Cria usuário
+
 PUT /users/{id} → Atualiza usuário
+
 DELETE /users/{id} → Remove usuário
 
 📦 Pedidos
