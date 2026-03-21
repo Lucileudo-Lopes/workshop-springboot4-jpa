@@ -54,6 +54,7 @@ git clone https://github.com/Lucileudo-Lopes/workshop-springboot4-jpa/edit/main/
 🔹 2. Configurar ambiente
 
 🧪 Perfil de teste (H2)
+
 spring.profiles.active=test
 spring.jpa.open-in-view=true
 
