@@ -1,18 +1,24 @@
 📦 E-commerce API - Spring Boot
 
 📌 Sobre o Projeto
-
 Esta é uma API RESTful desenvolvida com Java e Spring Boot que simula um sistema completo de e-commerce.
 
 A aplicação permite o gerenciamento de usuários, pedidos, produtos e categorias, incluindo relacionamentos complexos entre entidades e tratamento global de exceções, seguindo boas práticas de arquitetura em APIs REST.
 
 🚀 Tecnologias Utilizadas
+
 Java 25
+
 Spring Boot
+
 Spring Data JPA
+
 H2 Database (ambiente de teste)
+
 MySQL / PostgreSQL (produção)
+
 Maven
+
 Postman
 
 🏗️ Arquitetura do Projeto
