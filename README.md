@@ -29,8 +29,7 @@ Product ↔ Category → Many-to-Many
 Order ↔ Product (OrderItem) → Many-to-Many com atributos extras
 ⚙️ Como Executar o Projeto
 🔹 1. Clonar repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Lucileudo-Lopes/workshop-springboot4-jpa/edit/main/README.md
 🔹 2. Configurar ambiente
 🧪 Perfil de teste (H2)
 spring.profiles.active=test
