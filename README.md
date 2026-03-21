@@ -86,13 +86,18 @@ GET /categories/{id}
 
 🧪 Exemplo de Requisição
 ➤ Criar usuário
+
 POST /users
 {
   "name": "Bob Brown",
+  
   "email": "bob@gmail.com",
+  
   "phone": "977557755",
+ 
   "password": "123456"
 }
+
 📥 Exemplo de Resposta
 {
   "id": 1,
