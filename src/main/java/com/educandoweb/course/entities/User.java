@@ -25,6 +25,8 @@ public class User implements Serializable {
 	private String name;
 	private String email;
 	private String phone;
+	
+	@JsonIgnore
 	private String password;
 
 	@JsonIgnore
@@ -76,6 +78,7 @@ public class User implements Serializable {
 		this.phone = phone;
 	}
 
+	@JsonIgnore
 	public String getPassword() {
 		return password;
 	}
